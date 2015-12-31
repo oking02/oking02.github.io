@@ -1,0 +1,13 @@
+main {
+
+    display: flex;
+    height: 400px;
+    max-width: 85%;
+    margin:0 auto;
+
+    flex-direction: column;
+}
+
+.main--title {
+    color: #ff8307;
+}

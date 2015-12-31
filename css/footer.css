@@ -1,0 +1,49 @@
+footer {
+
+    height: 125px;
+    background-color: #141311;
+    color: white;
+    display: flex;
+
+}
+
+
+.footer--section {
+    flex: 1;
+}
+
+
+.footer--section > ul {
+    list-style: none;
+}
+
+.footer--section > ul > li {
+    padding: 0.5rem;
+    max-height: 25px;
+    display: inline-block;
+}
+
+
+.footer--icon {
+    height: 50px;
+    width: 50px;
+}
+
+.footer--icon__link:hover{
+    border-radius: 100%;
+    color: #ff8307;
+    fill: #ff8307;
+    transform: scale(1);
+    transition: background-color .5s, transform .5s ease-out
+
+}
+
+
+#github--iconLink:before{
+    content: "Github";
+}
+
+#linkedin--iconLink:before{
+    content: "Linkedin";
+}
+

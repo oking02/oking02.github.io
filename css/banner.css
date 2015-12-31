@@ -1,0 +1,75 @@
+
+
+section {
+
+    margin-top: 60px;
+    background-color: #141311;
+    width: 100%;
+
+}
+
+.banner {
+
+    display: flex;
+    height: 300px;
+
+
+}
+
+.banner--avatar {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 {
+    text-align: center;
+    color: white;
+}
+
+.banner--avatar--image {
+
+    display: flex;
+    height: 100px;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner--avatar--image:after {
+    display: flex;
+    overflow: hidden;
+    content: "";
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    background: url("../images/me.JPG") 0 0 no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.banner--title {
+    flex: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner--title--text {
+    flex: 1;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner--title--text > span {
+    color: #ff8307;
+}

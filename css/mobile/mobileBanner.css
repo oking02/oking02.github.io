@@ -1,0 +1,17 @@
+@media screen and (max-width: 450px) {
+
+    .banner {
+        flex-direction: column;
+        height: 425px;
+    }
+
+    .banner--title {
+        flex: 1;
+    }
+
+    .banner--title--text {
+        flex: 1;
+        max-width: 90%;
+    }
+
+}
